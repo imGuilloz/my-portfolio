@@ -34,7 +34,7 @@ export default function page() {
             alt="Foto de perfil"
           />
           <Image 
-            className="max-[600px] rounded-full"
+            className="max-[600px]:hidden rounded-full"
             src={'https://media.licdn.com/dms/image/D4D03AQFY0XIlyMCTHw/profile-displayphoto-shrink_400_400/0/1714443667708?e=1720656000&v=beta&t=leAjIu7wdDV5r8NF9D1lCybAwBI9bRF-ul9V0-rpQfY'}
             width={230}
             height={230}
