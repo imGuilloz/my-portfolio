@@ -5,7 +5,7 @@ export default function page() {
   return (
     <>
       <header className="px-6 py-8">
-        <nav className="text-slate-300 left-0 overflow-y-scroll">
+        <nav className="text-slate-300 left-0">
           <div className="flex items-center justify-between">
             <span className="text-xl bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold bg-clip-text text-transparent">Guillermo.</span>
             <RiMenu3Fill className="w-5 h-5" />
