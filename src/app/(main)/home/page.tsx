@@ -4,34 +4,53 @@ import { RiMenu3Fill, RiLinkedinFill, RiInstagramLine, RiTwitterXFill } from "re
 export default function page() {
   return (
     <>
-      <header className="px-6 py-8">
+      <header className="px-6 py-8 laptop:px-16">
         <nav className="text-slate-300 left-0">
-          <div className="flex items-center justify-between">
+          <div className="max-[600px]:hidden flex justify-between">
+            <ul className="flex space-x-10 items-center">
+                <li className="text-xl font-semibold">Guillermo.</li>
+                <li>Inicio</li>
+                <li>Servicios</li>
+                <li>Proyectos</li>
+                <li>Sobre mi</li>
+            </ul>
+            <div className="flex items-center">
+              <button className="rounded-full bg-[#FFF] px-4 py-3 text-[#1C1C22] font-semibold">Contactame</button>
+            </div>
+          </div>
+          <div className="flex items-center justify-between laptop:hidden">
             <span className="text-xl bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold bg-clip-text text-transparent">Guillermo.</span>
-            <RiMenu3Fill className="w-5 h-5" />
+            <RiMenu3Fill className="w-5 h-5 laptop:hidden" />
           </div>
         </nav>
       </header>
-      <main className="px-6 py-10">
+      <main className="px-6 py-10 laptop:px-16 laptop:py-14">
         <div className="flex flex-col justify-center items-center text-center">
           <Image
-            className="rounded-full"
+            className="rounded-full laptop:hidden"
             src={'https://media.licdn.com/dms/image/D4D03AQFY0XIlyMCTHw/profile-displayphoto-shrink_400_400/0/1714443667708?e=1720656000&v=beta&t=leAjIu7wdDV5r8NF9D1lCybAwBI9bRF-ul9V0-rpQfY'}
             width={170}
             height={170}
             alt="Foto de perfil"
           />
-          <h2 className="text-4xl mt-10 font-semibold text-left"><span className="font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">Hola, soy Guillermo</span> <br /> un desarrollador Front-End</h2>
+          <Image 
+            className="max-[600px] rounded-full"
+            src={'https://media.licdn.com/dms/image/D4D03AQFY0XIlyMCTHw/profile-displayphoto-shrink_400_400/0/1714443667708?e=1720656000&v=beta&t=leAjIu7wdDV5r8NF9D1lCybAwBI9bRF-ul9V0-rpQfY'}
+            width={230}
+            height={230}
+            alt="Foto de perfil"
+          />
+          <h2 className="text-4xl mt-10 font-semibold text-left laptop:text-5xl laptop:text-center"><span className="font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">Hola, soy Guillermo</span> <br /> un desarrollador Front-End</h2>
           <p className="mt-10 text-left">Me gusta programar paginas web atractivas para generar una experiencia increible.</p>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col laptop:flex-row laptop:mt-10 space-x-5 justify-center">
           <button
-            className="bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold rounded-full text-2xl text-white w-48 py-3 mt-8"
+            className="bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold rounded-full text-2xl text-white w-48 py-3 mt-8 laptop:bg-[#FFF] laptop:mt-0"
           >
             Contactame
           </button>
           <button
-            className="border-[1px] rounded-full py-3 mt-4 w-60 font-semibold text-2xl"
+            className="border-[1px] rounded-full py-3 mt-4 w-60 font-semibold text-2xl laptop:w-48 laptop:mt-0"
           >
             Proyectos
           </button>
