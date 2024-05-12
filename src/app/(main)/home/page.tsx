@@ -8,11 +8,11 @@ export default function page() {
         <nav className="text-slate-300 left-0">
           <div className="max-[600px]:hidden flex justify-between">
             <ul className="flex space-x-10 items-center">
-                <li className="text-xl font-semibold">Guillermo.</li>
-                <li>Inicio</li>
-                <li>Servicios</li>
-                <li>Proyectos</li>
-                <li>Sobre mi</li>
+              <li className="text-xl font-semibold">Guillermo.</li>
+              <li>Inicio</li>
+              <li>Servicios</li>
+              <li>Proyectos</li>
+              <li>Sobre mi</li>
             </ul>
             <div className="flex items-center">
               <button className="rounded-full bg-[#FFF] px-4 py-3 text-[#1C1C22] font-semibold">Contactame</button>
@@ -33,7 +33,7 @@ export default function page() {
             height={170}
             alt="Foto de perfil"
           />
-          <Image 
+          <Image
             className="max-[600px]:hidden rounded-full"
             src={'https://media.licdn.com/dms/image/D4D03AQFY0XIlyMCTHw/profile-displayphoto-shrink_400_400/0/1714443667708?e=1720656000&v=beta&t=leAjIu7wdDV5r8NF9D1lCybAwBI9bRF-ul9V0-rpQfY'}
             width={230}
@@ -56,24 +56,24 @@ export default function page() {
           </button>
         </div>
       </main>
-      <section className="bg-[#1C1C22] w-screen h-screen antialiased px-6 py-8">
+      <section className="bg-[#1C1C22] w-screen h-screen antialiased px-6 py-8 laptop:px-16">
         <div className="flex flex-col mt-5">
-          <span className="text-2xl font-semibold text-right">Desarrollando experiencias</span>
-          <span className="font-semibold text-2xl text-right">digitales que,</span>
-          <span className="text-2xl text-right bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold bg-clip-text text-transparent">resuelven problemas reales.</span>
+          <span className="text-2xl font-semibold text-right laptop:text-4xl laptop:text-center">Desarrollando experiencias</span>
+          <span className="font-semibold text-2xl text-right laptop:text-4xl laptop:text-center">digitales que,</span>
+          <span className="text-2xl text-right bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold bg-clip-text text-transparent laptop:text-4xl laptop:text-center">resuelven problemas reales.</span>
         </div>
-        <ul className="flex flex-col mt-10 text-2xl p-5">
+        <ul className="flex flex-col mt-10 text-2xl p-5 laptop:text-3xl">
           <li className="group relative p-10 border-t-[1px] inline-flex items-center justify-center overflow-hidden font-medium text-neutral-50 hover:cursor-pointer"><span className="absolute h-0 w-0 bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] transition-all duration-300 group-hover:h-full group-hover:w-full"></span><span className="relative">Diseño responsivo</span></li>
           <li className="group relative p-10 border-t-[1px] inline-flex items-center justify-center overflow-hidden font-medium text-neutral-50 hover:cursor-pointer"><span className="absolute h-0 w-0 bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] transition-all duration-300 group-hover:h-full group-hover:w-full"></span><span className="relative">Front-End</span></li>
           <li className="group relative p-10 border-t-[1px] inline-flex items-center justify-center overflow-hidden font-medium text-neutral-50 hover:cursor-pointer"><span className="absolute h-0 w-0 bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] transition-all duration-300 group-hover:h-full group-hover:w-full"></span><span className="relative">Hosting</span></li>
           <li className="group relative p-10 border-t-[1px] border-b-[1px] inline-flex items-center justify-center overflow-hidden font-medium text-neutral-50 hover:cursor-pointer"><span className="absolute h-0 w-0 bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] transition-all duration-300 group-hover:h-full group-hover:w-full"></span><span className="relative">SEO</span></li>
         </ul>
       </section>
-      <section className="w-screen antialiased px-6 py-8">
+      <section className="w-screen antialiased px-6 py-8 laptop:px-16">
         <div>
           <h3 className="text-4xl font-semibold">Mira mis<br /><span className="bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">proyectos.</span></h3>
-          <div className="mt-10 grid grid-cols-1 gap-4 justify-center ">
-            <div className="rounded-md bg-[#1C1C22]">
+          <div className="mt-10 grid grid-cols-1 gap-4 justify-center laptop:grid-cols-2">
+            <div className="rounded-md bg-[#1C1C22] laptop:w-3/4">
               <Image
                 className="w-full h-52 rounded-t-md"
                 src={'https://i.imgur.com/oeMGHqE.png'}
@@ -86,7 +86,7 @@ export default function page() {
                 <p>HTML, CSS, JavaScript</p>
               </div>
             </div>
-            <div className="rounded-md bg-[#1C1C22]">
+            <div className="rounded-md bg-[#1C1C22] laptop:w-3/4">
               <Image
                 className="w-full h-52 rounded-t-md"
                 src={'https://i.imgur.com/28SP0Op.png'}
@@ -99,7 +99,7 @@ export default function page() {
                 <p>HTML, CSS y JavaScript</p>
               </div>
             </div>
-            <div className="rounded-md bg-[#1C1C22]">
+            <div className="rounded-md bg-[#1C1C22] laptop:w-3/4">
               <Image
                 className="w-full h-52 rounded-t-md"
                 src={'https://i.imgur.com/aOajknX.png'}
@@ -112,7 +112,7 @@ export default function page() {
                 <p>React, JavaScript, Tailwind</p>
               </div>
             </div>
-            <div className="rounded-md bg-[#1C1C22]">
+            <div className="rounded-md bg-[#1C1C22] laptop:w-3/4">
               <Image
                 className="w-full h-52 rounded-t-md"
                 src={'https://i.imgur.com/R7D0G5O.png'}
@@ -128,9 +128,9 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="bg-[#1C1C22] h-screen w-screen antialiased px-6 py-8">
-        <h3 className="text-4xl font-semibold">Guillermo Olvera</h3>
-        <p className="mt-6">
+      <section className="bg-[#1C1C22] h-screen w-screen antialiased px-6 py-8 laptop:px-16 laptop:h-auto">
+        <h3 className="text-4xl font-semibold laptop:hidden">Guillermo Olvera</h3>
+        <p className="mt-6 laptop:hidden">
           Hola, soy un desarrollador web con más de 3 años de experiencia.
           <br />
           <br />
@@ -140,22 +140,75 @@ export default function page() {
           <br />
           Dos frases que más me identifican son: &quot;No te rindas&quot; y <i>&quot;Si puedes imaginarlo puedes programarlo&quot;.</i>
         </p>
-        <div className="mt-6">
+        <div className="max-[600px]:hidden flex items-center space-x-10 mt-10">
+          <h3 className="text-4xl font-semibold">Guillermo <br /> Olvera</h3>
+          <p className="">
+            Hola, soy un desarrollador web con más de 3 años de experiencia.
+            Tengo conocimientos en tecnologias como: HTML, CSS, JavaScript,
+            TypeScript, React, NextJs, Tailwind, Git, GitHub, NPM, Jira y Trello.
+          </p>
+          <p className="">
+            Dos frases que más me identifican son: &quot;No te rindas&quot; y <i>&quot;Si puedes imaginarlo puedes programarlo&quot;.</i>
+          </p>
+        </div>
+        <div className="max-[600px]:hidden flex justify-around mt-10">
+          <div className="mt-6 flex flex-col items-center font-semibold">
+            <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">10+</span>
+            <p className="mt-3">Proyectos finalizados.</p>
+          </div>
+          <div className="mt-6 flex flex-col items-center font-semibold">
+            <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">03</span>
+            <p className="mt-3">Años de experiencia.</p>
+          </div>
+          <div className="mt-6 flex flex-col items-center font-semibold">
+            <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">100%</span>
+            <p className="mt-3">Entrega a tiempo.</p>
+          </div>
+        </div>
+        <div className="mt-6 laptop:hidden">
           <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">10+</span>
           <p className="mt-3">Proyectos finalizados.</p>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 laptop:hidden">
           <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">03</span>
           <p className="mt-3">Años de experiencia.</p>
         </div>
-        <div className="mt-6">
+        <div className="mt-6 laptop:hidden">
           <span className="text-4xl font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">100%</span>
           <p className="mt-3">Entrega a tiempo.</p>
         </div>
       </section>
       <footer className="antialiased px-6 py-8">
-        <div className="flex flex-col">
-          <h3 className="text-xl">Guillermo.</h3>
+        <div className="max-[600px]:hidden flex justify-between laptop:px-10">
+          <h3>Guillermo.</h3>
+          <ul className="flex space-x-10 items-center">
+            <li>Inicio</li>
+            <li>Sobre mi</li>
+            <li>Contactame</li>
+          </ul>
+        </div>
+        <div className="max-[600px]:hidden flex justify-between items-center laptop:px-10">
+          <p className="mt-6 text-base">© Desarrollada por mi</p>
+          <div className="flex space-x-5 mt-6">
+            <div className="p-[1px] rounded-full bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56]">
+              <div className="p-[10px] bg-[#1C1C22] rounded-full">
+                <RiTwitterXFill className="w-6 h-6 rounded-full" />
+              </div>
+            </div>
+            <div className="p-[1px] rounded-full bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56]">
+              <div className="p-[10px] bg-[#1C1C22] rounded-full">
+                <RiLinkedinFill className="w-6 h-6 rounded-full" />
+              </div>
+            </div>
+            <div className="p-[1px] rounded-full bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56]">
+              <div className="p-[10px] bg-[#1C1C22] rounded-full">
+                <RiInstagramLine className="w-6 h-6 rounded-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col laptop:hidden">
+          <h3 className="text-xl ">Guillermo.</h3>
           <p className="mt-6 text-base">© Desarrollada por mi</p>
           <nav className="mt-6">
             <ul className="flex space-x-10 font-semibold text-base">
@@ -172,12 +225,12 @@ export default function page() {
             </div>
             <div className="p-[1px] rounded-full bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56]">
               <div className="p-[10px] bg-[#1C1C22] rounded-full">
-              <RiLinkedinFill className="w-6 h-6 rounded-full" />
+                <RiLinkedinFill className="w-6 h-6 rounded-full" />
               </div>
             </div>
             <div className="p-[1px] rounded-full bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56]">
               <div className="p-[10px] bg-[#1C1C22] rounded-full">
-              <RiInstagramLine className="w-6 h-6 rounded-full" />
+                <RiInstagramLine className="w-6 h-6 rounded-full" />
               </div>
             </div>
           </div>
