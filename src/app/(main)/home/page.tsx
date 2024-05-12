@@ -43,7 +43,7 @@ export default function page() {
           <h2 className="text-4xl mt-10 font-semibold text-left laptop:text-5xl laptop:text-center"><span className="font-semibold bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] bg-clip-text text-transparent">Hola, soy Guillermo</span> <br /> un desarrollador Front-End</h2>
           <p className="mt-10 text-left">Me gusta programar paginas web atractivas para generar una experiencia increible.</p>
         </div>
-        <div className="flex flex-col laptop:flex-row laptop:mt-10 space-x-5 justify-center">
+        <div className="flex flex-col laptop:flex-row laptop:mt-10 laptop:space-x-5 laptop:justify-center">
           <button
             className="bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold rounded-full text-2xl text-white w-48 py-3 mt-8 laptop:bg-[#FFF] laptop:mt-0"
           >
