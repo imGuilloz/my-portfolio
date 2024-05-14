@@ -61,7 +61,7 @@ export default function page() {
           <button className="bg-gradient-to-r from-[#B16CEA] to-[#FF5E69] via-[#FF8A56] font-semibold rounded-full text-2xl text-white w-48 py-3 mt-8 laptop:bg-[#FFF] laptop:mt-0 hover:bg-gradient-to-r hover:from-[#FF8A56] hover:to-[#B16CEA] hover:via-[#FF5E69] transition-all">
             Contactame
           </button>
-          <button className="relative py-3 w-48  overflow-hidden rounded-full text-2xl font-semibold border border-[#FFF] bg-transparent px-4 before:absolute before:bottom-0 before:left-0 before:block before:h-full before:w-full before:-translate-x-full before:bg-neutral-100 before:transition-transform hover:before:translate-x-0 text-white hover:text-[#1C1C22]"><span className="relative">Proyectos</span></button>
+          <button className="relative py-3 w-64 laptop:w-48 laptop:mt-0 mt-5 overflow-hidden rounded-full text-2xl font-semibold border border-[#FFF] bg-transparent px-4 before:absolute before:bottom-0 before:left-0 before:block before:h-full before:w-full before:-translate-x-full before:bg-neutral-100 before:transition-transform hover:before:translate-x-0 text-white hover:text-[#1C1C22]"><span className="relative">Proyectos</span></button>
         </div>
       </main>
       <section className="bg-[#1C1C22] w-screen h-screen antialiased px-6 py-8 laptop:px-16" ref={servicesRef}>
